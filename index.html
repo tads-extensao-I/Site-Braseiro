@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./src/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Braseiro</title>
 </head>
 
@@ -110,7 +111,7 @@
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
           tabindex="0">
           <h1 class="text-center py-3 ">Destaques</h1>
-          <div class="w-100 d-flex justify-content-center gap-5">
+          <div class="w-100 d-flex justify-content-around">
             <img src="./src/assets/Produtos/PRODUTO 1°.png" alt="">
             <img src="./src/assets/Produtos/PRODUTO 2°.png" alt="">
             <img src="./src/assets/Produtos/PRODUTO 3°.png" alt="">
@@ -119,7 +120,7 @@
         <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
           tabindex="0">
           <h1 class="text-center py-3 ">Linguiça Gourmet</h1>
-          <div class="w-100 d-flex justify-content-center gap-5">
+          <div class="w-100 d-flex justify-content-around">
             <img src="./src/assets/card.png" alt="">
             <img src="./src/assets/card3.png" alt="">
             <img src="./src/assets/card.png" alt="">
@@ -128,7 +129,7 @@
         <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
           tabindex="0">
           <h1 class="text-center py-3 ">Linguiça Tradicional</h1>
-          <div class="w-100 d-flex justify-content-center gap-5">
+          <div class="w-100 d-flex justify-content-around">
             <img src="./src/assets/card2.png" alt="">
             <img src="./src/assets/card2.png" alt="">
             <img src="./src/assets/card2.png" alt="">
@@ -137,7 +138,7 @@
         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
           tabindex="0">
           <h1 class="text-center py-3 ">Hambúrguer</h1>
-          <div class="w-100 d-flex justify-content-center gap-5">
+          <div class="w-100 d-flex justify-content-around">
             <img src="./src/assets/Hamburguer1.png" alt="">
             <img src="./src/assets/Hamburguer2.png" alt="">
             <img src="./src/assets/Hamburguer3.png" alt="">
@@ -146,7 +147,7 @@
         <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"
           tabindex="0">
           <h1 class="text-center py-3 ">Espetinhos</h1>
-          <div class="w-100 d-flex justify-content-center gap-5">
+          <div class="w-100 d-flex justify-content-around">
             <img src="./src/assets/Espeto.png" alt="">
             <img src="./src/assets/Espeto.png" alt="">
             <img src="./src/assets/Espeto.png" alt="">
@@ -156,8 +157,220 @@
     </div>
   </section>
 
+  <!-- ======== Receitas ======== -->
+
+  <section class="receitas d-flex flex-column align-items-center gap-4" id="Receitas">
+    <div class="w-100 text-center p-3 bg-info border border-dark rounded-2">
+      <h1 class="bg-info">Tipos de Receitas</h1>
+    </div>
+    <article class="container d-flex justify-content-around mt-2 ">
+      <div class="card" style="width: 18rem;">
+        <img src="./src/assets/Receita1.png" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title bg-transparent">Linguiça com batata cremosa à portuguesa</h5>
+          <p class="card-text bg-transparent">Receita do chef olivardo saqui</p>
+          <div class="bg-light">
+            <p class="d-flex flex-column gap-3 bg-light">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Ingredientes
+              </a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Modo de Preparo
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
+
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="./src/assets/Receita1.png" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title bg-transparent">Linguiça com batata cremosa à portuguesa</h5>
+          <p class="card-text bg-transparent">Receita do chef olivardo saqui</p>
+          <div class="bg-light">
+            <p class="d-flex flex-column gap-3 bg-light">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Ingredientes
+              </a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Modo de Preparo
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="card" style="width: 18rem;">
+        <img src="./src/assets/Receita1.png" class="card-img-top" alt="...">
+        <div class="card-body bg-light">
+          <h5 class="card-title bg-transparent">Linguiça com batata cremosa à portuguesa</h5>
+          <p class="card-text bg-transparent">Receita do chef olivardo saqui</p>
+          <div class="bg-light">
+            <p class="d-flex flex-column gap-3 bg-light">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Ingredientes
+              </a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                aria-expanded="false" aria-controls="collapseExample">
+                + Modo de Preparo
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <img src="./src/assets/SISBI.png" alt="">
+  </section>
+
+  <!-- ======== Quem Somos ======== -->
+
+  <section class="sobre" id="Sobre">
+    <article class="container pt-5">
+      <h1 class="text-center">Quem Somos</h1>
+      <div class="d-flex gap-5 mt-3">
+        <img class="sobre-imagem" src="./src/assets/QuemSomos.png" alt="">
+        <div>
+          <p>A empresa surgiu baseada em um desejo de empreender, associada a experiências anteriores que permitiram
+            adquirir aprendizados e ideias construtivas para o negócio. Todos esses fatores associados a inquietação de
+            criar algo novo para o mercado fez com que a Braseiro nascesse, a fim de revolucionar todos os paradigmas
+            até hoje criados a cerca do ato de comer bem e com qualidade.</p>
+          <p>A empresa braseiro linguiças gourmet é uma empresa familiar de porte pequeno. A proprietária Brenda é
+            tecnóloga em alimentos formada pela UEMS, veio de uma família catarinense atuando 8 anos na área frigorífica
+            e seu esposo 30, sempre houve o interesse em atuar nessa área de produção, em 6 meses conseguiram todos os
+            padrões sanitários, começando a produção de apenas 4 produtos, hoje em dia trabalham com 11 produtos no
+            total. O público alvo é para o A/B mas estão trabalhando para conseguir atender todos os públicos. A
+            braseiro é uma das 3 empresas de navirai que tem todos os certificados, e no estado são apenas 5.</p>
+          <p>Qualidade essa que sempre foi o foco de todas as ações tomadas desde a idealização, nascimento, e
+            consolidação de nossa marca, prezando pela experiência sensorial, sabor e diferenciação ao incluir algum de
+            nossos itens em seus momentos, seja entre a família, amigos ou somente buscando uma rápida refeição queremos
+            trazer satisfação e segurança para sua experiência.</p>
+          <p>Nessa caminha adquirimos nossos selos de qualidade, confirmando todas as nossas certezas a cerca do que
+            acreditamos, sempre trabalhando com empenho, conquistando a credibilidade de todos nossos clientes a fim de
+            sermos conhecidos como referência no que fazemos.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ======== Fale Conosco ======== -->
+
+  <section class="contato" id="Contatos">
+    <article class="container d-flex flex-column align-items-center gap-5">
+      <h1>Fale Conosco</h1>
+      <div class="card mb-3 bg-light" style="min-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.8409269567954!2d-54.216803825400824!3d-23.07045295976278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948b8fa8401d8b9b%3A0xf96470b66b5ebdcc!2sAv.%20Caarap%C3%B3%2C%201733%20-%20Res.%20Ipe%2C%20Navira%C3%AD%20-%20MS%2C%2079950-000!5e0!3m2!1spt-BR!2sbr!4v1687392019844!5m2!1spt-BR!2sbr"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-md-6 ">
+            <div class="card-body mt-5 ">
+              <h3 class="text-center ">
+                Informações de Contatos
+              </h3>
+              <div class="d-flex flex-column align-items-center">
+                <div class="mb-3 w-75 ">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="name" placeholder="Seu nome completo">
+                </div>
+                <div class="mb-3 w-75 ">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+                <div class="mb-3 w-75 ">
+                  <label for="mensagem" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="mensagem " placeholder="Digite sua mensagem" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ======== Rodapé ======== -->
+
+  <section class="rodape">
+    <article class="container d-flex justify-content-between">
+      <div>
+        <img src="./src/assets/logo.png" alt="">
+      </div>
+      <div>
+        <h3>Sobre</h3>
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Parcerias</h3>
+        <div>
+          <img src="./src/assets/LogoIfms.png" alt="">
+          <img src="./src/assets/LogoUfms.png" alt="">
+        </div>
+      </div>
+      <div>
+        <h3>Contatos</h3>
+        <div>
+          <p>+55 (67) 99826-6778</p>
+          <p>braseiroatacadista@gmail.com</p>
+        </div>
+        <div>
+          <i class='bx bxl-instagram'></i>
+          <i class='bx bxl-facebook' ></i>
+          <i class='bx bxl-whatsapp' ></i>
+          <i class='bx bxl-gmail' ></i>
+        </div>
+      </div>
+    </article>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
