@@ -24,9 +24,7 @@ a {
 
 
 /*================================== Configurações do Menu =============================================== */
-.home{
-  height: 100vh;
-}
+
 .menu-item:hover{
   color: rgb(196, 82, 82);
 }
@@ -38,6 +36,13 @@ a {
 /*================================== Configurações do Home =============================================== */
 .home-banner-mg{
   height: 100%;
+}
+.background-carousel{
+  background: url("../assets/BACKGROUND.png");
+}
+.fundo{
+  height: 250px;
+  width: 100%;
 }
 
 
@@ -83,3 +88,22 @@ a {
 }
 
 /*================================== Configurações Rodapé =============================================== */
+.rodape{
+  background-color:darkseagreen;
+}
+.logo-rodape{
+  width: 100px;
+  height: 100px;
+}
+.lista-sobre{
+  list-style-type: none;
+}
+ul{
+  padding-left: 0;
+}
+h3{
+  color: #fff;
+}
+h3:hover{
+  color: rgb(51, 49, 49);
+}
