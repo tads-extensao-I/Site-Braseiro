@@ -32,6 +32,10 @@ a {
 .menu-logo{  /* Tamanho Logo */
   width: 90px;
 }
+.nav-link {
+  color: black;
+  font-weight:bolder;
+}
 
 /*================================== Configurações do Home =============================================== */
 .home-banner-mg{
@@ -47,7 +51,9 @@ a {
 
 
 /*================================== Configurações do Produtos =============================================== */
-
+.container-prod{
+  height: 70vh;
+}
 
 .catalogo{
   width: 100%;
@@ -63,7 +69,7 @@ a {
 .nav-produtos{
   background-color: rgb(199, 209, 209);
   width: 15%;
-  height: 70vh;
+  height: 23vh;
   border-left: 7px solid orange;
 }
 
