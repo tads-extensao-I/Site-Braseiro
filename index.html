@@ -9,6 +9,8 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./src/css/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css'>
   <title>Braseiro</title>
 </head>
 
@@ -69,11 +71,13 @@
             <img src="./src/assets/home-background.png" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon " aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -288,17 +292,17 @@
   <!-- ======== Fale Conosco ======== -->
 
   <section class="contato" id="Contatos">
-    <article class="container d-flex flex-column align-items-center gap-5">
+    <article class="container d-flex flex-column align-items-center gap-4">
       <h1>Fale Conosco</h1>
       <div class="card mb-3 bg-light" style="min-width: 100%;">
         <div class="row g-0">
-          <div class="col-md-6">
+          <div class="col-md-5">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.8409269567954!2d-54.216803825400824!3d-23.07045295976278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948b8fa8401d8b9b%3A0xf96470b66b5ebdcc!2sAv.%20Caarap%C3%B3%2C%201733%20-%20Res.%20Ipe%2C%20Navira%C3%AD%20-%20MS%2C%2079950-000!5e0!3m2!1spt-BR!2sbr!4v1687392019844!5m2!1spt-BR!2sbr"
               width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div class="col-md-6 ">
+          <div class="info-contatos col-md-6 ">
             <div class="card-body mt-5 ">
               <h3 class="text-center ">
                 Informações de Contatos
@@ -326,57 +330,115 @@
 
   <!-- ======== Rodapé ======== -->
 
-  <section class="rodape">
-    <article class="container d-flex justify-content-between">
-      <div class="d-flex align-items-center" >
-        <img class="logo-rodape" src="./src/assets/logo.png" alt="">
-      </div>
-      <div class="">
-        <h3>Sobre</h3>
-        <ul class="lista-sobre">
-          <li>
-            <a href="#Home">Home</a>
-          </li>
-          <li>
-            <a href="#Produtos">Produtos</a>
-          </li>
-          <li>
-            <a href="#Receitas">Receitas</a>
-          </li>
-          <li>
-            <a href="#Sobre">Quem Somos</a>
-          </li>
-          <li>
-            <a href="#Contatos">Fale Conosco</a>
-          </li>
-        </ul>
-      </div>
-      <div class="text-center">
-        <h3>Parcerias</h3>
-        <div>
-          <img src="./src/assets/LogoIfms.png" alt="">
-          <img src="./src/assets/LogoUfms.png" alt="">
-        </div>
-      </div>
-      <div>
-        <h3>Contatos</h3>
-        <div>
-          <p>+55 (67) 99826-6778</p>
-          <p>braseiroatacadista@gmail.com</p>
-        </div>
-        <div>
-          <i class='bx bxl-instagram'></i>
-          <i class='bx bxl-facebook' ></i>
-          <i class='bx bxl-whatsapp' ></i>
-          <i class='bx bxl-gmail' ></i>
-        </div>
-      </div>
-    </article>
-  </section>
+  <!-- Footer Inicio -->
+  <footer class="footer">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    <div class="container d-flex justify-content-center">
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+
+          <div class="footer-blog">
+
+            <h3>Menu</h3>
+
+            <div>
+              <a href="#Home">Home</a>
+            </div>
+
+            <div>
+              <a href="#Produtos">Produtos</a>
+            </div>
+
+            <div>
+              <a href="#Receitas">Receitas</a>
+            </div>
+
+            <div>
+              <a href="#Sobre">Quem Somos</a>
+            </div>
+
+            <div>
+              <a href="#Contatos">Fale Conosco</a>
+            </div>
+
+
+          </div>
+
+        </div><!--Coluna 1-->
+
+
+        <div class="col-md-6">
+
+          <div class="footer-tags">
+            <h3>Parcerias</h3>
+            <div class="d-flex gap-2">
+              <img class="footer-img" src="./src/assets/ifms.png" alt="">
+              <img class="footer-img" src="./src/assets/ufms.png" alt="">
+            </div>
+          </div>
+
+        </div><!--Coluna 2-->
+
+
+
+
+      </div><!--row-->
+
+    </div><!--container-->
+
+    <div class="container">
+      <div class="footer-contact">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h4>Contato</h4>
+            <p>braseiroatacadista@gmail.com</p>
+            <p>+55 (67) 99826-6778</p>
+          </div>
+
+          <div class="col-md-6">
+
+            <h4>Redes Sociais</h4>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+      
+        <div class="row align-items-center">
+          
+          <div class="col-md-6">
+            <div class="copy-text">
+              <p>&copy; <a href="#">Ifms</a> - Todos os Direitos Reservados.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6">
+            <div class="copy-menu">
+              <a href="#">Créditos</a>
+              <a href="http://www.ifms.edu.br/">Contato Ifms</a>
+            </div>
+          </div>
+        
+        </div>
+      
+      </div><!--container-->
+    </div><!--copyright-->
+
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+      <i class='bx bxs-to-top'></i>
+
+
+  </footer>
+  <!-- Footer Fim -->
 </body>
 
 </html>
