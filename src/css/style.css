@@ -40,7 +40,12 @@ a {
 }
 
 /*================================== Configurações do Login =============================================== */
-
+.login{
+  opacity: 1;
+  background-color: #d8363a;
+  color: white;
+  border-radius: 5px;
+}
 .gradient-custom-2 {
   /* fallback for old browsers */
   background: #fccb90;
