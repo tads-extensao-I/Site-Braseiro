@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../Pages/Admin.css">
+</head>
+
+<body>
+
+  <main>
+    <nav class="navbar navbar-expand-md top-menu">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3 " href="#">Braseiro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <div class="top-menu-conteudo w-100 d-flex justify-content-end align-items-center  gap-3 me-5">
+
+            <div class="input-group pesquisar">
+              <span class="input-group-text " id="basic-addon1"><i class='bx bx-search-alt-2'></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Pesquisar"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <i class='bx bx-bell'></i>
+            <i class='bx bx-cog'></i>
+
+
+            <a href="../index.html" class="btn btn-danger d-flex align-items-center "><i class='bx bxs-log-out'></i>
+              Sair</a>
+
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </main>
+
+
+
+
+
+  <section class="row d-flex">
+    <section class="sidebar col-2 d-flex flex-column p-0  justify-content-between">
+      <nav class="menu-admin mt-5 d-flex flex-column gap-4">
+        <a class="menu-admin-item" href="./home.html">
+          <i class='bx bx-home'></i>
+          <span>Home</span>
+        </a>
+        <a class="menu-admin-item ativo" href="./empresa.html">
+          <i class='bx bx-home'></i>
+          <span>Empresa</span>
+        </a>
+        <a class="menu-admin-item" href="./produtos.html">
+          <i class='bx bx-home'></i>
+          <span>Produtos</span>
+        </a>
+        <a class="menu-admin-item" href="./publicacoes.html">
+          <i class='bx bx-home'></i>
+          <span>Publicações</span>
+        </a>
+        <a class="menu-admin-item" href="./redes.html">
+          <i class='bx bx-home'></i>
+          <span>Redes Sociais</span>
+        </a>
+      </nav>
+
+      <div class="d-flex gap-3 perfil mb-4" class="perfil">
+        <img class="rounded-circle" src="https://source.unsplash.com/random/50x50?sig=1" alt="">
+        <div class="d-flex flex-column gap-0">
+          <span class="perfil-name">username</span>
+          <span class="perfil-mail">exemplo@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="conteudo container col-8">
+      <article class="conteudo-formulario mt-4">
+        <h1 class="text-center   text-danger mb-5">Dados da Empresa</h1>
+
+        <!--AQUI VAI TODO OS FORMULARIOS DO SITE -->
+
+        <form class="pt-4 bg-body-secondary row g-3 needs-validation" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Nome Fantasia</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="Nome da empresa" required>
+            <div class="valid-tooltip">
+              Parece bom!
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">CNPJ</label>
+            <input type="text" name="cnpj" class="form-control" placeholder="00.000.000/0000-00"
+              id="validationTooltip02" required>
+            <div class="valid-tooltip">
+              Insira um nome de Cnpj válido!
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative">
+            <label for="cel" class="form-label">Telefone</label>
+            <div class="input-group has-validation">
+              <input type="text" name="cel" class="form-control" placeholder="(99) 9999-9999" id="cel" required>
+              <div class="invalid-tooltip">
+                Insira um número de telefone válido!
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="E-mail" placeholder="e-mail">
+            <div class="invalid-tooltip">
+              Por favor insira um e-mail válido!
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" required>
+          </div>
+          <div class="col-md-4 position-relative p-2">
+            <label for="inputZip">Cep</label>
+            <input type="text" class="form-control" id="inputZip" required>
+          </div>
+          <div class="col-md-4 position-relative p-2">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control" required>
+              <option selected hidden>Escolha...</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+            </select>
+          </div>
+          </div>
+
+
+          <div class="col-9 ">
+            <label for="validationTextarea">Missão</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="missão" required></textarea>
+            <label for="validationTextarea">Visão</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="visão" required></textarea>
+            <label for="validationTextarea">Valores</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="valores" required></textarea>
+            <label for="validationTextarea">Sobre nós</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="sobre nós" required></textarea>
+            <div class="invalid-feedback">
+              Por favor insira o texto abaixo!.
+            </div>
+          </div>
+
+
+
+          <div class="col-12">
+            
+          </div>
+          <button class="btn btn-dark w-25 mx-auto">Enviar</button>
+        </form>
+      </article>
+    </section>
+
+
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

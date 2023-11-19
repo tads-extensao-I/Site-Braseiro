@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../Pages/Admin.css">
+</head>
+
+<body>
+
+  <main>
+    <nav class="navbar navbar-expand-md top-menu">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="#">Braseiro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <div class="top-menu-conteudo w-100 d-flex justify-content-end align-items-center  gap-3 me-5">
+
+            <div class="input-group pesquisar">
+              <span class="input-group-text " id="basic-addon1"><i class='bx bx-search-alt-2'></i></span>
+              <input type="text" class="form-control" placeholder="Username" aria-label="Pesquisar"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <i class='bx bx-bell'></i>
+            <i class='bx bx-cog'></i>
+
+
+            <a href="../index.html" class="btn btn-danger d-flex align-items-center"><i class='bx bxs-log-out'></i>
+              Sair</a>
+
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </main>
+
+
+
+
+
+  <section class="row d-flex">
+    <section class="sidebar col-2 d-flex flex-column p-0  justify-content-between">
+      <nav class="menu-admin mt-5 d-flex flex-column gap-4">
+        <a class="menu-admin-item" href="./home.html">
+          <i class='bx bx-home'></i>
+          <span>Home</span>
+        </a>
+        <a class="menu-admin-item" href="./empresa.html">
+          <i class='bx bx-home'></i>
+          <span>Empresa</span>
+        </a>
+        <a class="menu-admin-item" href="./produtos.html">
+          <i class='bx bx-home'></i>
+          <span>Produtos</span>
+        </a>
+        <a class="menu-admin-item ativo" href="./publicacoes.html">
+          <i class='bx bx-home'></i>
+          <span>Publicações</span>
+        </a>
+        <a class="menu-admin-item" href="./redes.html">
+          <i class='bx bx-home'></i>
+          <span>Redes Sociais</span>
+        </a>
+      </nav>
+
+      <div class="d-flex gap-3 perfil mb-4" class="perfil">
+        <img class="rounded-circle" src="https://source.unsplash.com/random/50x50?sig=1" alt="">
+        <div class="d-flex flex-column gap-0">
+          <span class="perfil-name">username</span>
+          <span class="perfil-mail">exemplo@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="conteudo container col-8">
+      <article class="conteudo-formulario mt-4">
+        <h1 class="text-center text-danger ">Publicação</h1>
+        <!-- AQUI VAI TODO OS FORMULARIOS DO SITE -->
+
+        <form class="pt-4 bg-body-secondary h-50 w-75 p-2 mx-auto mt-5 d-flex flex-column gap-3">
+          <article class="d-flex justify-content-between gap-3">
+            <section class="w-50">
+              <div class="mb-3"><label for="titulo" class="form-label">Titulo</label><input placeholder="Nome"
+                  type="text" class="form-control" id="titulo"></div>
+              <div class="mb-3"><label for="descricao" class="form-label">Descrição</label><textarea
+                  class="form-control" placeholder="Descrição"></textarea></div>
+              <div class="mb-3"><label for="resumo" class="form-label">Resumo</label><input type="text"
+                  class="form-control" id="resumo"></div>
+
+            </section>
+            <section class="w-50">
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Imagem</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+              </div>
+              <div class="mb-3"><label for="emissao" class="form-label">Data de Emissão</label><input type="date"
+                  class="form-control" id="emissao"></div>
+            </section>
+          </article>
+          <button class="btn btn-dark w-25 mx-auto">Enviar</button>
+        </form>
+
+      </article>
+    </section>
+
+
+
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

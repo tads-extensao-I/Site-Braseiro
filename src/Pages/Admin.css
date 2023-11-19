@@ -1,0 +1,67 @@
+/*===================== configuração da barra lateral  DashBoard =====================*/
+
+.sidebar { /*manipula a barra lateral inteira*/
+    background-image: url('../assets/Background.jpg');
+    background-repeat: no-repeat;
+    height: 94vh;
+  }
+  
+  .menu-admin-item{ /*manipula todo o menu*/
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color: #d6d6d6;
+    border-radius: 15px;
+  }
+  
+  
+  .menu-admin-item i { /* manipula somente o icone do menu */
+    padding: 10px 10px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+  }
+  
+  .menu-admin-item span { /* manipula somente o texto do menu*/ 
+    font-weight: 700;
+  }
+  
+  .perfil {  /*manipula todo a caixa de perfil*/
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d6d6d6;
+    border-radius: 15px;
+    padding: 10px 20px;
+  }
+  
+  .perfil-name { /* manipula somente o nome*/
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .perfil-mail{ /*manipula somente o email em baixo*/
+    font-size: 14px;
+  }
+  
+  .ativo{
+    background-color: #a0a0a0 !important;
+  }
+  
+  
+  /*===================== configuração do menu superior =====================*/
+  .top-menu{ /*comfiguracoes do menu superior*/
+    background-color: rgb(220, 217, 223)
+  }
+  
+  .top-menu-conteudo i{
+    font-size: 24px;
+  }
+  
+  .pesquisar{
+    width: 250px;
+  }
